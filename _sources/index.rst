@@ -1,5 +1,5 @@
 ========================================================
-Python 3 with Lists, Loops, Conditionals, and Functions
+Cognifire Study: Learning Assessment
 ========================================================
 
 .. Here is were you specify the content and order of your new book.
@@ -16,22 +16,15 @@ Python 3 with Lists, Loops, Conditionals, and Functions
 Study Information
 :::::::::::::::::::::::
 
-Thank you for taking part in this study! We are researchers who are trying
-to improve the teaching and learning of programming.
+Thank you for taking part in our study!
 
-This study has four parts.  It will take approximately 50 minutes to complete
-the study.  Please do the parts in order and answer questions to the best
-of your ability without any outside help. You can stop working on a problem after you worked
-on it for about five minutes without solving it.
+This part of the study has two parts. Please do the parts in order and answer questions to the best
+of your ability without any outside help.
 
-If you have questions about this study please email Dr. Barbara Ericson at barbarer@umich.edu.
+The two parts are:
 
-The four parts are:
-
-- Pre Survey - Questions about your experience and confidence in computing
 - Introduction - Materials to get you familiar with the types of problems in this study
-- Practice - Practice problems
-- Post Test - Post test problems
+- Problems - Problems to solve
 
 Click on the link at the end of each page to get to the next part.
 
@@ -39,16 +32,15 @@ What to do next
 ============================
 .. raw:: html
 
-    <p>Click on the following link to take the pre survey : <b><a id="p3dnd-survey"> <font size="+2">Pre Survey</font></a></b></p>
+    <p>Click on the following link to learn how to solve different types of problems in this ebook : <b><a id="p3dnd-intro"><font size="+2">Introduction to Problem Types</font></a></b></p>
 
 .. raw:: html
 
     <script type="text/javascript" >
 
       window.onload = function() {
-
-        a = document.getElementById("p3dnd-survey")
-        a.href = "p3dnd-presurvey.html"
+        a = document.getElementById("p3dnd-intro")
+        a.href = "p3dnd-intro.html"
       };
 
     </script>

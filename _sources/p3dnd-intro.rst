@@ -90,117 +90,21 @@ See the video below for an example.
     :height: 415
     :align: center
 
-Solving Write Code Problems
-==============================
-
-If you see a problem like the one below, you will need to write code.  The problem
-will have unit tests that you can run to check that your code is working
-correctly.  Click on the "Run" button to compile and run your code.  Look after
-the code area for compiler errors and/or unit test results.
-
-See the video below for an example.
-
-.. youtube:: w9hTOJ7iJpE
-    :divid: p3dnd-write-code-video-ex
-    :optional:
-    :width: 1020
-    :height: 826
-    :align: center
-
-Finish writing the code for the following problem.
-
-.. activecode:: intro-sample-write-code-triple-p3dnd
-    :practice: T
-    :autograde: unittest
-
-    Write a function called ``triple(num)`` that takes a number ``num`` and
-    returns the number times 3. For example, ``triple(2)`` should return 6 and
-    ``triple(-1)`` should return -3.  Look below the code to check for any
-    compiler errors or the results
-    from the test cases.  Be sure to ``return`` the result.
-    ~~~~
-    def triple(num):
-        # write code here
-
-    print(triple(2))
-    print(triple(-1))
-
-    ====
-    from unittest.gui import TestCaseGui
-    class myTests(TestCaseGui):
-
-        def testOne(self):
-            self.assertEqual(triple(2),6,"triple(2)")
-            self.assertEqual(triple(3),9,"triple(3)")
-            self.assertEqual(triple(-1),-3,"triple(-1)")
-            self.assertEqual(triple(0),0,"triple(0)")
-            self.assertEqual(triple(11),33,"triple(11)")
-
-    myTests().main()
-
-Feedback
-==================================
-
-.. shortanswer:: p3dnd-intro-sa
-
-   Please provide feedback here. Please share any comments, problems, or suggestions.
-
-
 What to do next
 ============================
 
 .. raw:: html
 
-    <p>Click on the following link to go the practice problems: <a id="p3dnd-practice"><font size="+2">Practice Problems</font></a></p>
+    <p>Click on the following link to go the pre-learning problems: <a id="p3dnd-pwd-pre"><font size="+2">Practice Problems</font></a></p>
 
 
 .. raw:: html
 
-   <script type="text/javascript">
+    <script type="text/javascript" >
 
-     function getCookie(cname) {
-        let name = cname + "=";
-        let decodedCookie = decodeURIComponent(document.cookie);
-        let ca = decodedCookie.split(';');
-        for(let i = 0; i <ca.length; i++) {
-           let c = ca[i];
-           while (c.charAt(0) == ' ') {
-              c = c.substring(1);
-           }
-           if (c.indexOf(name) == 0) {
-              return c.substring(name.length, c.length);
-           }
-        }
-        return "";
-     }
+      window.onload = function() {
+        a = document.getElementById("p3dnd-pwd-pre")
+        a.href = "p3dnd-pwd-pre.html"
+      };
 
-     function setCookie(cname, cvalue) {
-        document.cookie = cname + "=" + cvalue + ";";
-     }
-
-     window.onload = function() {
-
-        a = document.getElementById("p3dnd-practice")
-
-        // get prev set cookie
-        var EXP_COOKIE = 'p3dnd'
-        var cond = getCookie(EXP_COOKIE);
-
-        // if no prev set cookie: generate random condition and set cookie
-        if (cond != 'd' && cond != 'nd') {
-           var v = Math.floor(Math.random() * 2);
-           if (v < 1) {
-               cond = 'd';
-           } else {
-               cond = 'nd';
-           }
-           setCookie(EXP_COOKIE, cond);
-        }
-
-        if (cond == 'd') {
-           a.href = "p3dnd-pwd.html"
-        } else if (cond == 'nd') {
-           a.href = "p3dnd-pnd.html"
-        }
-     };
-   </script>
+    </script>
