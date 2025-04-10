@@ -8,24 +8,24 @@ outside help.
 Problems
 ==============
 
-.. selectquestion:: p3dnd-sum-digits-wd-sq-1
-   :fromid: p3dnd-sum-digits-wd
+.. selectquestion:: p3dnd-bob-there-wd-sq-1
+   :fromid: p3dnd-bob-there-wd
    :points: 10
 
-.. selectquestion:: p3dnd-in-back-wd-sq-1
-   :fromid: p3dnd-in-back-wd
+.. selectquestion:: p3dnd-front-back-wd-sq-1
+   :fromid: p3dnd-front-back-wd
    :points: 10
 
-.. selectquestion:: p3dnd-is-level-wd-sq-1
-   :fromid: p3dnd-is-level-wd
+.. selectquestion:: p3dnd-two-two-wd-sq-1
+   :fromid: p3dnd-two-two-wd
    :points: 10
 
-.. selectquestion:: p3dnd-palindrome-number-wd-sq-2
-   :fromid: p3dnd-palindrome-number-wd-v2
+.. selectquestion:: p3dnd-two-sum-wd-sq-1
+   :fromid: p3dnd-two-sum-wd
    :points: 10
 
-.. selectquestion:: p3dnd-total-eight-nine-wd-sq-1
-   :fromid: p3dnd-total-eight-nine-wd
+.. selectquestion:: p3dnd-max-block-wd-sq-1
+   :fromid: p3dnd-max-block-wd
    :points: 10
 
 What to do next
