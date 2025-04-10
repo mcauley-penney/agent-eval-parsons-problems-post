@@ -36,7 +36,7 @@ if master_url is None:
     master_url = get_master_url()
 
 master_app = 'runestone'
-serving_dir = "./build/post"
+serving_dir = "./build/" + project_name
 
 #new 7/2019 changes
 # Change to False when running localhost
@@ -56,9 +56,9 @@ options(
     sphinx = Bunch(docroot=".",),
 
     build = Bunch(
-        builddir="./build/post",
+        builddir="./build/" + project_name,
         sourcedir="_sources",
-        outdir="./build/post",
+        outdir="./build/" + project_name,
         confdir=".",
         project_name=project_name,
         template_args={'course_id': project_name,
